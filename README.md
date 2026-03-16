@@ -28,13 +28,13 @@ A modern and high-performance task manager built with **React** and **TypeScript
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/Etwaiz/react_todo-app-with-api.git](https://github.com/Etwaiz/react_todo-app-with-api.git)
+    git clone https://github.com/Etwaiz/react_todo-app-with-api.git
     ```
 
 2.  **Navigate to the project directory:**
 
     ```bash
-    cd react_todo-app-with-api
+    cd react_todo-app
     ```
 
 3.  **Install dependencies:**
