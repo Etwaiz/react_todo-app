@@ -1,0 +1,35 @@
+@use './todoapp';
+@use './todo';
+@use './filter';
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background-color: #f5f5f5 !important;
+  color: #4d4d4d !important;
+}
+
+iframe {
+  display: none;
+}
+
+body {
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.notification {
+  transition-property: opacity, min-height;
+  transition-duration: 1s;
+  min-height: 36px;
+}
+
+.notification.hidden {
+  min-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
