@@ -6,58 +6,58 @@
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Bulma](https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=bulma&logoColor=white)
 
-Сучасний та швидкий менеджер завдань, побудований на **React** та **TypeScript**. Проект взаємодіє з реальним REST API для збереження та управління списком справ.
+A modern and high-performance task manager built with **React** and **TypeScript**. This project interacts with a real REST API to persist and manage a todo list.
 
-## 🚀 Основні можливості
+## 🚀 Key Features
 
-- **Повний цикл CRUD**: створення, читання, оновлення та видалення завдань на сервері.
-- **Фільтрація**: перегляд усіх завдань, тільки активних або вже завершених.
-- **Масові дії**: можливість позначити всі завдання як виконані або видалити всі завершені одним кліком.
-- **Оптимістичне оновлення**: інтерфейс реагує миттєво, поки запит йде на сервер.
-- **Валідація**: захист від порожніх назв та обробка помилок мережі.
+- **Full CRUD Support**: Create, Read, Update, and Delete tasks on a remote server.
+- **Advanced Filtering**: Filter tasks by status (All, Active, Completed).
+- **Bulk Operations**: Toggle all tasks as completed or clear all finished tasks with a single click.
+- **Optimistic Updates**: The UI responds instantly while the background request is being processed.
+- **Robust Validation**: Includes protection against empty titles and handles network errors gracefully.
 
-## 🛠 Технологічний стек
+## 🛠 Tech Stack
 
-- **Frontend**: React (Hooks, Context/Props), TypeScript.
-- **Стилізація**: SCSS (БЕМ), Bulma CSS Framework.
-- **Збірка**: Vite.
-- **API**: RESTful API для віддаленого зберігання даних.
+- **Frontend**: React (Hooks, Refs, State Management), TypeScript.
+- **Styling**: SCSS (BEM methodology), Bulma CSS Framework.
+- **Tooling**: Vite for fast development and bundling.
+- **Data Fetching**: RESTful API integration using Fetch.
 
-## 📦 Як запустити проект
+## 📦 Getting Started
 
-1.  **Клонуйте репозиторій:**
+1.  **Clone the repository:**
 
     ```bash
     git clone [https://github.com/Etwaiz/react_todo-app-with-api.git](https://github.com/Etwaiz/react_todo-app-with-api.git)
     ```
 
-2.  **Перейдіть у папку проекту:**
+2.  **Navigate to the project directory:**
 
     ```bash
     cd react_todo-app-with-api
     ```
 
-3.  **Встановіть залежності:**
+3.  **Install dependencies:**
 
     ```bash
     npm install
     ```
 
-4.  **Налаштуйте `USER_ID`:**
-    Відкрийте файл `src/api/todos.ts` та вкажіть ваш персональний ID.
+4.  **Configure `USER_ID`:**
+    Open `src/api/todos.ts` and set your personal ID to fetch your specific data.
 
-5.  **Запустіть сервер для розробки:**
+5.  **Run the development server:**
     ```bash
     npm run dev
     ```
 
-## 📐 Структура проекту
+## 📐 Project Structure
 
-- `src/api` — клієнт для роботи з мережевими запитами (Fetch).
-- `src/components` — перевикористовувані React-компоненти.
-- `src/styles` — SCSS модулі та глобальні стилі.
-- `src/types` — описи інтерфейсів та типів TypeScript.
+- `src/api` — API client logic and Fetch wrapper.
+- `src/components` — Modular and reusable React components.
+- `src/styles` — Global styles and SCSS modules.
+- `src/types` — TypeScript interfaces and enums for type safety.
 
 ---
 
-Розроблено [Etwaiz](https://github.com/Etwaiz).
+Developed with ❤️ by [Etwaiz](https://github.com/Etwaiz).

@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 import { createTodos, getTodos, patchTodo } from './api/todos';
 import { Todo } from './types/Todo';
+import { UserWarning } from './UserWarning';
 import { USER_ID } from './api/todos';
 import { FilterStatus } from './types/FilterStatus';
 import { Header } from './components/Header/Header';
@@ -185,6 +186,10 @@ export const App: React.FC = () => {
   const activeTodosCount = todos.filter(todo => !todo.completed).length;
 
   const completedTodos = todos.filter(todo => todo.completed).length;
+
+  if (!USER_ID) {
+    return <UserWarning />;
+  }
 
   return (
     <div className="todoapp">
