@@ -8,6 +8,12 @@
 
 A modern and high-performance task manager built with **React** and **TypeScript**. This project interacts with a real REST API to persist and manage a todo list.
 
+## 🔗 Live Demo
+
+**[View Live Project](https://etwaiz.github.io/react_todo-app-with-api/)**
+
+---
+
 ## 🚀 Key Features
 
 - **Full CRUD Support**: Create, Read, Update, and Delete tasks on a remote server.
@@ -28,7 +34,7 @@ A modern and high-performance task manager built with **React** and **TypeScript
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Etwaiz/react_todo-app-with-api.git
+    git clone [https://github.com/Etwaiz/react_todo-app-with-api.git](https://github.com/Etwaiz/react_todo-app-with-api.git)
     ```
 
 2.  **Navigate to the project directory:**
@@ -60,4 +66,4 @@ A modern and high-performance task manager built with **React** and **TypeScript
 
 ---
 
-Developed with ❤️ by [Etwaiz](https://github.com/Etwaiz).
+Developed by [Etwaiz](https://github.com/Etwaiz).
